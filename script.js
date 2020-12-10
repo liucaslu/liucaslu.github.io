@@ -41,7 +41,7 @@ var dashNumber;
 
 function addDash(){
 dashNumber =  document.getElementById("dash").innerText.length;
-document.getElementById("started").innerHTML =  "Keep going!";
+document.getElementById("started").innerHTML =  "Click here to progress!";
 if (dashNumber != 99) {
   line.textContent += "-";
   dashNumber ++;

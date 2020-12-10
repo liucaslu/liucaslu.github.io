@@ -6,16 +6,16 @@ body {
 
 button,.inputButton{
   background-color: #FF924E ;
-  border: 1.5px;
+  border: 2px;
   border-style: solid;
-  border-radius: 9px;
+  border-radius: 15px;
   border-color: #FF924E ;
   color: #1A1A1A;
-  padding: 10px 12px;
+  padding: 15px 18px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
 }
 p {
@@ -81,17 +81,17 @@ input[type="text"] {
 }
 
 .goalReason {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 0px;
-  font-size: 18pt;
-  height: 22px;
+  font-size: 42pt;
+  height: 62px;
   font-family: 'Times New Roman', serif;
   font-weight: 600;
 }
 
 #goal,#reason{
-  padding-left: 3pt;
-  width: 450px;
+  padding-left: 8pt;
+  width: 900px;
 }
 
 .fill {
@@ -110,7 +110,7 @@ input[type="text"] {
 
 #satisfied {
   text-align: right;
-  font-size: 15px;
+  font-size: 20px;
   margin: 5px 0px;
   margin-top: 8px;
   font-weight: 600;
@@ -141,7 +141,7 @@ input[type="text"] {
 
 #progress {
   background: white;
-  width: 605px;
+  width: 985px;
   margin-left: 15px;
   border: 1px solid #333333;
   border-radius: 10px;
@@ -165,13 +165,15 @@ input[type="text"] {
 #dash{
   white-space: nowrap;
   font-weight: 900;
+  font-size: 20pt;
   margin-left: 15px;
   /* color: #FF2900; */
 }
 
 #end{
-  margin-left: 549px;
+  margin-left: 905px;
   position: absolute;
+  font-size: 20pt;
   font-weight: 900;
   color: #74DA40 ;
 
@@ -226,7 +228,11 @@ input[type="text"] {
 #bot {
   margin-top: 50px;
   margin-bottom: 20px;
-  float: right;
+  position: fixed;
+  left: 90vw;
+  right: 10vw;
+  bottom: 0;
+  z-index: 0;
 }
 
 
